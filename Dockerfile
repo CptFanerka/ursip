@@ -3,4 +3,4 @@ WORKDIR /ursip
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY src/ .
-CMD [ "python", "./excel_parser.py" ]
+CMD [ "python", "./excel_file_parser.py" ]

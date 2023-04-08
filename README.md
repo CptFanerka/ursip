@@ -16,5 +16,5 @@ git clone https://github.com/cptfanerka/ursip.git
 cd ursip
 pip install -r requirements.txt
 cd src
-python excel_parser.py
+python excel_file_parser.py
 ```
